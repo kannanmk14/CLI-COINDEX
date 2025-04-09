@@ -1,0 +1,16 @@
+today we are gonna build command line interface that gives various cryptographic prices and api from normx.com which give
+prices of cryptographic prices
+
+demo coindex to start
+gives options and check to check coin prices and help command
+
+when we give any command -h it shows help like sub command we generate api key and set it and it give prices
+
+if you want specific coin coindex check price --coin=BTC 
+ if you want bit coin to convert to other price --coin=BTC --cur=EUR gives bit coin in EURO 
+
+for module commander js is the main module to maintain option and syntax and action for that to get prompt we use inquirer and configstore to store config value get them and delete them we use that for keys
+
+//here we manually created bin so once other download to make them available this coindex we do it npm module bin make it available globally
+
+npm i commander inquirer configstore axios colors axios to deal with third party api colors to add color to cli
